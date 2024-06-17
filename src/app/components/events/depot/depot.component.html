@@ -1,0 +1,38 @@
+<page-hero />
+
+
+<section class="pb-24 lg:pb-32 bg-black">
+    <div class="lg:w-[90%] 3xl:w-[80%] mx-auto">
+        <price-widget />
+        <div class="table-content">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Company</th>
+                        <th>price</th>
+                        <th>Last Update</th>
+                        <th>Trend</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @for(item of list(); track item) {
+                        <tr>
+                            <td>
+                                <div class="font-bold capitalize">{{ item.company_name }} </div>
+                                <div class="text-xs">{{ item.address }} </div>
+                            </td>
+                            <td class="font-bold">₦ {{ item.price | currency : ' ' }}</td>
+                            <td> {{ item.updated_at | date }} </td>
+                            <td class="flex flex-col items-center justify-center">
+                                <span class="flex flex-col items-center justify-center">
+                                    <span class="material-symbols-outlined" [ngClass]="{'text-green-500': item.signal == 'nuetral', 'text-gray-500': item.signal !== 'nuetral' }">arrow_drop_up</span>
+                                    <span class="material-symbols-outlined" [ngClass]="{'text-gray-500': item.signal == 'nuetral', 'text-red-500': item.signal !== 'nuetral' }"> arrow_drop_down</span>
+                                </span>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,62 @@
+[
+    {
+        "company": "Gasland Nigeria Ltd.",
+        "price": "500.56",
+        "trend": "up",
+        "logo": "/assets/logo.png"
+    },
+    {
+        "company": "Lyushi Oil and Gas",
+        "price": "500.76",
+        "trend": "down",
+        "logo": "/assets/logo.png"
+    },
+    {
+        "company": "Gas Terminalling Ltd.",
+        "price": "503.23",
+        "trend": "up",
+        "logo": "/assets/logo.png"
+    },
+    {
+        "company": "Hyson Nigeria Ltd",
+        "price": "503.47",
+        "trend": "down",
+        "logo": "/assets/logo.png"
+    },
+    {
+        "company": "Good Intentions Services Ltd",
+        "price": "503.89",
+        "trend": "up",
+        "logo": "/assets/logo.png"
+    },
+    {
+        "company": "MATRIX PETROCHEM LTD",
+        "price": "504.15",
+        "trend": "down",
+        "logo": "/assets/logo.png"
+    },
+    {
+        "company": "Chimons Gas Ltd",
+        "price": "509.33",
+        "trend": "up",
+        "logo": "/assets/logo.png"
+    },
+    {
+        "company": "Himma Merchant",
+        "price": "509.56",
+        "trend": "down",
+        "logo": "/assets/logo.png"
+    },
+    {
+        "company": "Strategic Energy Ltd",
+        "price": "511.12",
+        "trend": "up",
+        "logo": "/assets/logo.png"
+    },
+    {
+        "company": "Geradisco Industries",
+        "price": "511.34",
+        "trend": "down",
+        "logo": "/assets/logo.png"
+    }
+]

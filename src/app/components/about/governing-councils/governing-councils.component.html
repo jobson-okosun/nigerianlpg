@@ -1,0 +1,53 @@
+<page-hero />
+
+<section>
+    <div class="pt-24 lg:pt-32">
+        <div class="w-content">
+            <div class="flex flex-col gap-20 text-sm">
+                <div>
+                    <h5 class="text-sm capitalize font-boldtext-primary border-l-2 border-primary pl-3">MANAGEMENT</h5>
+                    <h2 class="font-black text-3xl text-secondary capitalize mt-2 tracking-wide">.Executive council Members</h2>
+                </div>
+                <div>
+                    <div class="border-l-4 border-primary flex flex-col gap-5 lg:w-2/3">
+                        @for(item of list.executive; track item; let first=$first) {
+                            <div class="flex items-center" title="{{ item.title.toLowerCase() }}">
+                                <span class="lg:w-1/3 h-2 border-b border-primary"></span>
+                                <div class="lg:flex-1 rounded-full p-2 gap-5 {{ first && '!border-primary'}} bg-white hover:border-primary transition duration-500 shadow-sm flex items-center border">
+                                    <span class="rounded-full h-10 w-10 flex items-center justify-center bg-primary text-white  material-symbols-outlined">military_tech</span>
+                                    <h4 class="flex-1 capitalize font-bold text-sm">{{ item.title.toLowerCase() }} · <span class="font-normal"> {{ item.name.toLowerCase() }} </span></h4>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="py-24 lg:py-32">
+        <div class="w-content">
+            <div class="flex flex-col gap-20 text-sm">
+                <div>
+                    <h5 class="text-sm capitalize font-boldtext-primary border-l-2 border-primary pl-3">GOVERNING COUNCIL</h5>
+                    <h2 class="font-black text-3xl text-secondary capitalize mt-2 tracking-wide">.Governing council Members</h2>
+                </div>
+                <div>
+                    <div class="border-l-4 border-primary flex flex-col gap-5 lg:w-2/3">
+                        @for(item of list.council; track item; let first=$first) {
+                            <div class="flex items-center">
+                                <span class="lg:w-1/3 h-2 border-b border-primary"></span>
+                                <div class="lg:flex-1 rounded-full p-2 gap-5 bg-white hover:border-primary transition duration-500 shadow-sm flex items-center border">
+                                    <span class="rounded-full h-10 w-10 flex items-center justify-center bg-primary text-white  material-symbols-outlined">for_you</span>
+                                    <h4 class="flex-1 capitalize font-bold text-sm">Member · <span class="font-normal"> {{ item.name.toLowerCase() }} </span></h4>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

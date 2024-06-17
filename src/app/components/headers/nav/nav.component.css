@@ -1,0 +1,78 @@
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0; 
+    width: max-content; 
+    z-index: 1000;
+    animation: fadeIn 0.6s ease forwards  
+}
+
+
+@keyframes fadeIn {
+    from { 
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.nav-item, .submenu li {
+    position: relative; 
+    padding: 5px 0;
+}
+
+.nav-item .submenu li a {
+    @apply text-white text-xs
+}
+
+.nav-item:hover > a,  .submenu li:hover > a{
+    opacity: 0.8;
+}
+
+.nav-item:hover .submenu {
+    display: block;
+}
+
+.arrow {
+    display: inline-block;
+    transition: 0.3s ease;
+    font-size: 12px;
+}
+
+.submenu li a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    background-color:#0DA2DA;
+    width: 0;
+    transition: width 0.3s ease;
+}
+
+.nav-item > a::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    height: 2px;
+    background-color:#0DA2DA;
+    width: 0;
+    transition: width 0.3s ease;
+}
+
+.submenu li:hover > a::after, .nav-item:hover > a::after  {
+    width: 100%;
+}
+
+.nav-item:hover span .arrow {
+    transform: rotate(-180deg);
+}
+
+@media screen and (max-width: 1024px) {
+    .nav-item {
+        color:white;
+    }
+}

@@ -1,0 +1,125 @@
+<page-hero />
+
+<section>
+    <div class="py-24 lg:py-32">
+        <div class="lg:w-[90%] 3xl:w-[70%] mx-auto">
+
+            <div class="flex flex-col lg:flex-row lg:justify-between lg:items-end lg:gap-20 gap-10  text-sm">
+                <div class="px-5 lg:px-0">
+                    <h5 class="text-sm capitalize font-boldtext-primary border-l-2 border-primary pl-3">MEET</h5>
+                    <h2 class="font-black text-3xl text-secondary capitalize mt-2 tracking-wide">.Meet Our <span class="text-primary">Members</span></h2>
+                </div>
+                <div class="flex items-center gap-5 px-5 lg:px-0">
+                    <div class="flex-1 has-[:focus]:border-primary has-[:focus]:bg-white  flex rounded-full bg-gray-200 min-w-max xl:min-w-[400px] border-2 text-xs font-medium border-transparent outline-none transition duration-500">
+                        <input type="text" name="search" placeholder="Search Members Name" class="peer focus:bg-transparent flex-1 !border-none !outline-none bg-transparent pl-5">
+                        <button (click)="search()" type="button" class="material-symbols-outlined peer-focus-within:bg-primary peer-focus-within:text-white  w-12 h-12 bg-white rounded-full flex items-center justify-center">search</button>
+                    </div>
+                    <span (click)="showFilter.set(!showFilter())" type="button" class="material-symbols-outlined w-12 h-12 bg-amber-500 text-white rounded-full flex items-center justify-center cursor-pointer">tune</span>
+                </div>
+            </div>
+
+            @if(showFilter()) {
+                <div class="my-10 animate__animated animate__fadeIn p-5 mb-10">
+                    <div class="flex items-center flex-wrap gap-2 bg-gray-100  p-5">
+                        @for(item of filter(); track item) {
+                            <span (click)="selectFilter($event)" class="text-xs flex gap-2 items-center px-3 py-2 rounded-md bg-white border border-transparent hover:border-primary cursor-pointer">
+                                <img src="{{ serviceIndicators()[item]['img'] }}" class="w-7">
+                                <span class="capitalize">{{ serviceIndicators()[item]['title'] }}</span>
+                                <input type="hidden" value="{{ item }}">
+                            </span>
+                        }
+                    </div>
+                    <button (click)="filterList()" type="button" class="bg-amber-500 text-white font-medium capitalize rounded-md flex items-center justify-center p-3 mt-5 min-w-full lg:min-w-[300px] hover:drop-shadow-lg">Filter</button>
+                </div>
+            }
+
+            <div class="px-5 lg:px-0 my-10">
+                <h2 class="font-black text-3xl text-secondary capitalize mt-2 tracking-wide">.Diamond <span class="text-primary">Members</span></h2>
+            </div>
+            <div class="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-5">
+                @for(item of diamondList().slice(0, limit); track item) {
+                    <div [style.backgroundImage]="'url(' + (item.logo_url ? 'https://www.api.nigerialpgas.com/storage/app/' + item.logo_url : '/assets/logo.png') + ')'" [style.backgroundSize.%]="50" class="bg-no-repeat overflow-hidden bg-gray-200 bg-center h-[300px] relative group {{ !item.logo_url && 'grayscale bg-opacity-30' }}">
+                        <div class="w-full bg-black/0 inset-0 h-full absolute group-hover:bg-black/40 transition ease-in duration-500"></div>
+                        <div class="z-10 w-full inset-0 h-full absolute">
+                            <div class="w-[80%] absolute bottom-0 right-0 flex gap-1">
+                                <div class="w-2 max-h-min bg-white"></div>
+                                <div class="flex-1 flex flex-col gap-2 p-3  bg-white ">
+                                    <span class="capitalize font-semibold text-xs">{{ item.company_name }}</span>
+                                    @if(item.activities) {
+                                       <span class="flex">
+                                            @for(key of toStringArray(item.activities); track key) {
+                                                @if(getServiceIndicator(key)) {
+                                                    <img src="{{ getServiceIndicator(key) }}" class="w-4">
+                                                }
+                                            }
+                                        </span> 
+                                    }
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }                      
+            </div>
+
+            <div class="px-5 lg:px-0 my-10">
+                <h2 class="font-black text-3xl text-secondary capitalize mt-2 tracking-wide">.Gold <span class="text-primary">Members</span></h2>
+            </div>
+            <div class="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-5">
+                @for(item of goldList().slice(0, limit); track item) {
+                    <div [style.backgroundImage]="'url(' + (item.logo_url ? 'https://www.api.nigerialpgas.com/storage/app/' + item.logo_url : '/assets/logo.png') + ')'" [style.backgroundSize.%]="50" class="bg-no-repeat overflow-hidden bg-gray-200 bg-center h-[300px] relative group {{ !item.logo_url && 'grayscale bg-opacity-30' }}">
+                        <div class="w-full bg-black/0 inset-0 h-full absolute group-hover:bg-black/40 transition ease-in duration-500"></div>
+                        <div class="z-10 w-full inset-0 h-full absolute">
+                            <div class="w-[80%] absolute bottom-0 right-0 flex gap-1">
+                                <div class="w-2 max-h-min bg-white"></div>
+                                <div class="flex-1 flex flex-col gap-2 p-3  bg-white ">
+                                    <span class="capitalize font-semibold text-xs">{{ item.company_name }}</span>
+                                    @if(item.activities) {
+                                       <span class="flex">
+                                            @for(key of toStringArray(item.activities); track key) {
+                                                @if(getServiceIndicator(key)) {
+                                                    <img src="{{ getServiceIndicator(key) }}" class="w-4">
+                                                }
+                                            }
+                                        </span> 
+                                    }
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }                      
+            </div>
+
+            <div class="px-5 lg:px-0 my-10">
+                <h2 class="font-black text-3xl text-secondary capitalize mt-2 tracking-wide">.Silver <span class="text-primary">Members</span></h2>
+            </div>
+            <div class="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-5">
+                @for(item of silverList().slice(0, limit); track item) {
+                    <div [style.backgroundImage]="'url(' + (item.logo_url ? 'https://www.api.nigerialpgas.com/storage/app/' + item.logo_url : '/assets/logo.png') + ')'" [style.backgroundSize.%]="50" class="bg-no-repeat overflow-hidden bg-gray-200 bg-center h-[300px] relative group {{ !item.logo_url && 'grayscale bg-opacity-30' }}">
+                        <div class="w-full bg-black/0 inset-0 h-full absolute group-hover:bg-black/40 transition ease-in duration-500"></div>
+                        <div class="z-10 w-full inset-0 h-full absolute">
+                            <div class="w-[80%] absolute bottom-0 right-0 flex gap-1">
+                                <div class="w-2 max-h-min bg-white"></div>
+                                <div class="flex-1 flex flex-col gap-2 p-3  bg-white ">
+                                    <span class="capitalize font-semibold text-xs">{{ item.company_name }}</span>
+                                    @if(item.activities) {
+                                       <span class="flex">
+                                            @for(key of toStringArray(item.activities); track key) {
+                                                @if(getServiceIndicator(key)) {
+                                                    <img src="{{ getServiceIndicator(key) }}" class="w-4">
+                                                }
+                                            }
+                                        </span> 
+                                    }
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }                      
+            </div>
+
+        </div>
+    </div>
+</section>

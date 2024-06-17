@@ -1,0 +1,96 @@
+<page-hero />
+
+<section>
+    <div class="py-24 lg:py-32 lg:w-[80%] 3xl:w-[80%] mx-auto px-5 lg:p-0 ">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-20">
+            <div class="h-[300px] border-b-[14px] border-primary relative lg:-translate-y-[150px] lg:shadow-lg">
+                <div class="h-full bg-cover bg-no-repeat" style="background-image: url(./assets/about1.jpg);"></div>
+                <div class="h-[20px] w-full absolute bottom-0 bg-white"></div>
+                <div class="h-3/5 w-2/3 bg-cover bg-no-repeat absolute bottom-0 right-0 border-[14px] border-white lg:translate-x-[50px] translate-y-[70px] z-10"
+                    style="background-image: url(./assets/about.jpeg);"></div>
+            </div>
+            <div class="lg:col-span-2 flex flex-col gap-8 text-sm lg:px-10">
+                <div>
+                    <h5 class="text-sm capitalize font-boldtext-primary border-l-2 border-primary pl-3">JOIN US</h5>
+                    <h2 class="font-black text-3xl text-secondary capitalize mt-2 tracking-wide">Become one of us</h2>
+                </div>
+                <p class="tracking-wide text-gray-600/90 leading-normal">
+                    With over 150 members and still counting, Nigeria LP Gas Association (NLPGA) is the umbrella body of
+                    all Stakeholders in the LP Gas sector in Nigeria.<br><br>
+
+                    It is a Public / Private initiative established in line with the directive of the Federal Government
+                    of Nigeria as advised by the World Bank in the year 2003.<br><br>
+
+                    The primary objective of the Association is to promote the use of LP Gas in Nigeria at affordable
+                    costs. It aims at protecting the interests of the LP Gas industry and the entire Nigerian
+                    socio-economic environment at large, through public policy advocacy, creation and facilitation of
+                    commercial and industrial opportunities, provision of business development services and observance
+                    of the highest standard of operational and business ethics. <br><br>
+
+                    It also represents the opinion of the stakeholders on all matters, which impact on the investment
+                    environment and the Nigerian socio-economy as a whole. <br><br>
+
+                    As part of our ongoing activities, NLPGA will continue to build partnerships with important entities
+                    such as the Federal and State Ministries in Nigeria, Government Agencies and International Bodies
+                    <br><br>
+
+                    Our staff are also active with networks of member company representatives around Nigeria <br><br>
+
+                    Our Annual NLPGA Conference is an avenue where our members, Industry leaders and other stakeholders
+                    in the local and international LPG sector meet, learn and make business. <br><br>
+
+                    Our wide range of services to Members also include annual global LP Gas Statistics, Nigeria LP Gas
+                    Statistics, Members-only reports, Newsletters and staff answers to specific questions on all matters
+                    related to the LP Gas business, from production to end-use. <br><br>
+
+                    Begin the process of becoming a member of NLPG
+                </p>
+
+                <div>
+                    <button class="rounded-sm px-6 py-3 bg-secondary text-white font-medium text-sm capitalize hover:bg-primary transition duration-500">Join us</button>
+                </div>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 my-10 lg:my-20">
+            <div class="pt-28 bg-blue-50">
+                <div class="w-full lg:translate-x-[100px] flex flex-col items-end">
+                    <h3 class="font-black text-xl lg:text-3xl my-2">Our Mission & Vision</h3>
+                    <div [style.backgroundImage]="'url(/assets/mission_01.png)'" class="bg-no-repeat bg-cover h-[200px] lg:h-[300px] w-4/5 lg:w-2/3"></div>
+                </div>
+            </div>
+            <div class="flex flex-col gap-10 lg:gap-20 lg:justify-end py-10 lg:py-20 lg:px-20">
+                <p class="border-l-4 border-primary pl-5 tracking-wide text-gray-600/90 leading-normal text-sm">
+                    NLPGA will actively champion the competitiveness and utilisation of Liquefied Petroleum Gas by promoting sound policy development, capacity development and best practices towards optimising the economics of the entire gas value chain, while emphasising environmental sustainability and safety.
+                </p>
+                <p class="border-l-4 border-amber-500 pl-5 tracking-wide text-gray-600/90 leading-normal text-sm">
+                    NLPGA will be the most influential and independent non-profit organization, in effectively advancing the role of Nigerian Liquefied Petroleum Gas as the platform for championing the development of the gas industry in Nigeria.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="py-24 lg:py-32 bg-gray-100">
+        <div class="w-content">
+            <div class="flex flex-col gap-10 text-sm">
+                <div>
+                    <h5 class="text-sm capitalize font-boldtext-primary border-l-2 border-primary pl-3">OBJECTIVES</h5>
+                    <h2 class="font-black text-3xl text-secondary capitalize mt-2 tracking-wide">What We Stand FOR?</h2>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                   @for(item of list; track item; let index = $index) {
+                        <div class="flex flex-col justify-center items-center text-center gap-7 bg-white rounded-md drop-shadow-md px-10 py-12 hover:border-primary hover:bg-blue-50 lg:border {{ index == 1 ? 'border-primary' : 'border-transparent'}}  transtion">
+                            <span class="rounded-full mx-auto h-12 w-12  text-black flex items-center justify-center">
+                                <span class="material-symbols-outlined opacity-70 text-amber-600" [style.fontSize.px]="50">{{ item.icon }} </span>
+                            </span>
+                            <h5 class="text-xl font-bold">{{ item.title }} </h5>
+                            <p class="text-sm text-gray-500 tracking-wide leading-normal">{{ item.description }} </p>
+                            <span class="material-symbols-outlined opacity-60">more_horiz</span>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

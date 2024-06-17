@@ -1,0 +1,122 @@
+[
+    {
+        "id": 5,
+        "member_id": 1,
+        "company_name": "Gasland Nigeria Ltd.",
+        "price": 500,
+        "signal": "nuetral",
+        "color": "warning",
+        "address": "Ikotun, Lasu Road, Ogando, Ikotun, Lagos",
+        "note": null,
+        "created_at": "2023-07-05 00:17:53",
+        "updated_at": "2023-07-05 00:17:53"
+    },
+    {
+        "id": 10,
+        "member_id": 1,
+        "company_name": "Lyushi Oil and Gas",
+        "price": 500,
+        "signal": "nuetral",
+        "color": "warning",
+        "address": "315 Herbert Macaulay Way, Yaba, Lagos",
+        "note": null,
+        "created_at": "2023-07-05 00:26:41",
+        "updated_at": "2023-07-05 00:26:41"
+    },
+    {
+        "id": 4,
+        "member_id": 1,
+        "company_name": "Gas Terminalling Ltd.",
+        "price": 503,
+        "signal": "nuetral",
+        "color": "warning",
+        "address": "Plot 224, Moshood Abiola Way, Ijora, Lagos",
+        "note": null,
+        "created_at": "2023-07-05 00:15:17",
+        "updated_at": "2023-07-05 00:15:17"
+    },
+    {
+        "id": 6,
+        "member_id": 1,
+        "company_name": "Hyson Nigeria Ltd",
+        "price": 503,
+        "signal": "nuetral",
+        "color": "warning",
+        "address": "Plot 264, Tafawa Balewa Way, Central Business District, Abuja",
+        "note": null,
+        "created_at": "2023-07-05 00:19:49",
+        "updated_at": "2023-07-05 00:19:49"
+    },
+    {
+        "id": 9,
+        "member_id": 1,
+        "company_name": "Good Intentions Services Ltd",
+        "price": 503,
+        "signal": "nuetral",
+        "color": "warning",
+        "address": "Good Intentions Services Limited, 9, Rhodes Crescent, Apapa, Lagos",
+        "note": null,
+        "created_at": "2023-07-05 00:25:34",
+        "updated_at": "2023-07-05 00:25:34"
+    },
+    {
+        "id": 1,
+        "member_id": 1,
+        "company_name": "MATRIX PETROCHEM LTD",
+        "price": 504,
+        "signal": "nuetral",
+        "color": "warning",
+        "address": "1 Wilmer Street, Ilupeju, Lagos State, Nigeria",
+        "note": null,
+        "created_at": "2023-07-05 00:05:32",
+        "updated_at": "2023-07-05 00:31:25"
+    },
+    {
+        "id": 3,
+        "member_id": 1,
+        "company_name": "Chimons Gas Ltd",
+        "price": 509,
+        "signal": "nuetral",
+        "color": "warning",
+        "address": "27/29 Adeyemo Alakija Street, Victoria Island, Lagos",
+        "note": null,
+        "created_at": "2023-07-05 00:13:23",
+        "updated_at": "2023-07-05 00:13:23"
+    },
+    {
+        "id": 8,
+        "member_id": 1,
+        "company_name": "Himma Merchant",
+        "price": 509,
+        "signal": "nuetral",
+        "color": "warning",
+        "address": "406, 4th Floor, BOI Building. 18 Muhammadu Buhari Way, Kaduna",
+        "note": null,
+        "created_at": "2023-07-05 00:23:57",
+        "updated_at": "2023-07-05 00:23:57"
+    },
+    {
+        "id": 2,
+        "member_id": 1,
+        "company_name": "Strategic Energy Ltd",
+        "price": 511,
+        "signal": "nuetral",
+        "color": "warning",
+        "address": "1st Floor, 3/5 Boyle Street, Onikan, Lagos.",
+        "note": null,
+        "created_at": "2023-07-05 00:11:52",
+        "updated_at": "2023-07-05 00:11:52"
+    },
+    {
+        "id": 7,
+        "member_id": 1,
+        "company_name": "Geradisco Industries",
+        "price": 511,
+        "signal": "nuetral",
+        "color": "warning",
+        "address": "WIHU Avenue, Isheri Oke Lagos",
+        "note": null,
+        "created_at": "2023-07-05 00:21:42",
+        "updated_at": "2023-07-05 00:21:42"
+    }
+]

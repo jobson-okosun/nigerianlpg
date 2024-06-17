@@ -1,0 +1,48 @@
+<div class="relative">
+
+    <!-- Swiper Slider -->
+    <swiper-container init="false">
+      @for(item of slides(); track item; let i = $index) {
+        <swiper-slide class="h-[400px] lg:h-[600px]">
+          <img src="{{ item }}" alt="Slide {{ i }}" class="w-full h-full object-cover">
+        </swiper-slide>
+      }
+    </swiper-container>
+  
+    <!-- Countdown Timer Overlay -->
+    <div class="absolute z-10 inset-0 bg-secondary bg-opacity-60 flex items-center justify-center">
+      <div class="lg:w-[90%] 3xl:w-[80%] mx-auto  h-max py-24 lg:py-0">
+        <div class="px-5">
+          <div class="py-10 text-center animate__animated animate__slideInDown">
+            <h1 class="text-3xl lg:text-5xl font-black text-white capitalize">14th NLPGA Conference And Exhibition</h1>
+            <p class="text-white opacity-70 font-normal text-sm lg:text-lg mt-2">LPG & AutoGas LPG: The Road to economic Recovery</p>
+          </div>
+          <div class="flex items-center justify-center gap-3 lg:gap-7 animate__animated animate__slideInUp">
+            <span class="flex flex-col items-center justify-center h-[70px] w-[70px] lg:h-[160px] lg:w-[160px] bg-gray-500/50 rounded-full">
+              <span class="font-black text-white text-2xl lg:text-5xl" [innerText]="countdown.days"></span>
+              <span class="text-yellow-400 font-bold text-3xs lg:text-sm">Days</span>
+            </span>
+            <span class="flex flex-col items-center justify-center h-[70px] w-[70px] lg:h-[160px] lg:w-[160px] bg-gray-500/50 rounded-full">
+              <span class="font-black text-white text-2xl lg:text-5xl" [innerText]="countdown.hours"></span>
+              <span class="text-yellow-400 font-bold text-3xs lg:text-sm">Hours</span>
+            </span>
+            <span class="flex flex-col items-center justify-center h-[70px] w-[70px] lg:h-[160px] lg:w-[160px] bg-gray-500/50 rounded-full">
+              <span class="font-black text-white text-2xl lg:text-5xl" [innerText]="countdown.minutes"></span>
+              <span class="text-yellow-400 font-bold text-3xs lg:text-sm">Minutes</span>
+            </span>
+            <span class="flex flex-col items-center justify-center h-[70px] w-[70px] lg:h-[160px] lg:w-[160px] bg-gray-500/50 rounded-full">
+              <span class="font-black text-white text-2xl lg:text-5xl" [innerText]="countdown.seconds"></span>
+              <span class="text-yellow-400 font-bold text-3xs lg:text-sm">Seconds</span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Swipper controls -->
+    <div (click)="swiperPreviousNext()" class="absolute top-1/2 left-0 z-10 flex items-center h-10 w-10 justify-center material-symbols-outlined text-gray-300 text-4xl mx-1 lg:mx-3 p-5 lg:p-8 cursor-pointer hover:bg-gray-500/50 transition duration-300 rounded-full">arrow_back_ios</div>
+
+    <div (click)="swiperSlideNext()" class="absolute top-1/2 right-0 z-10 flex items-center h-10 w-10 justify-center material-symbols-outlined text-gray-300 text-4xl mx-1 lg:mx-3 p-5 lg:p-8 cursor-pointer hover:bg-gray-500/50 transition duration-300 rounded-full">arrow_forward_ios</div>
+
+  </div>
+  

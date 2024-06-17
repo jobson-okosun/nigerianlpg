@@ -1,0 +1,37 @@
+<page-hero />
+
+<section>
+    <div class="py-24 lg:py-32">
+        <div class="w-content">
+            <div class="flex flex-col gap-20 text-sm">
+                <div>
+                    <h5 class="text-sm capitalize font-boldtext-primary border-l-2 border-primary pl-3">MANAGEMENT</h5>
+                    <h2 class="font-black text-3xl text-secondary capitalize mt-2 tracking-wide">.Meet Our <span class="text-primary">Leadership</span></h2>
+                </div>
+                <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-10">
+                    @for(item of list; track item) {
+                        <div [style.backgroundImage]="'url(' + item.image + ')'" class="overflow-hidden bg-gray-100 bg-cover bg-bottom h-[400px] relative group">
+                            <div class="w-full bg-black/0 inset-0 h-full absolute group-hover:bg-black/40 transition ease-in duration-500"></div>
+                            <div class="z-10 w-full inset-0 h-full absolute">
+                                <div class="w-2/3 text-white absolute bottom-0 right-0 flex gap-1">
+                                    <div class="w-2 max-h-min bg-amber-500"></div>
+                                    <div class="flex-1 flex flex-col p-3  bg-amber-500 ">
+                                        <span class="capitalize font-semibold text-sm">{{ item.name.toLowerCase() }}</span>
+                                        <span class="opacity-80 capitalize text-xs">{{ item.title.toLowerCase() }} </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="z-20 inset-0 h-full absolute w-max p-3 hidden group-hover:block">
+                                <div class="flex flex-col items-center gap-4">
+                                    <a href="{{ item.socials.x }}" class="fa-brands fa-x-twitter text-white hover:text-primary" style="font-size: 12px"></a>
+                                    <a href="{{ item.socials.fb }}" class="fa-brands fa-facebook-f text-white hover:text-primary" style="font-size: 12px"></a>
+                                    <a href="{{ item.socials.lki }}" class="fa-brands fa-linkedin-in text-white hover:text-primary" style="font-size: 12px"></a>
+                                </div>
+                            </div>
+                        </div>
+                    }                      
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

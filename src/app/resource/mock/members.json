@@ -1,0 +1,1031 @@
+[
+    {
+        "company_name": "Banner Energy Limited",
+        "logo_url": "public/fileupload/bihV0XlXZEglvHm565bCMcHuau4wPoHi9RM5n3K4.png",
+        "username": "Banner5909",
+        "package_id": 3,
+        "activities": "[\"Terminal_or_Depots\",\"Equipment_or_Accessories\",\"Cylinder_Manufacturers\",\"Plant_Owner\",\"LPG\"]"
+    },
+    {
+        "company_name": "Chimons Gas Ltd",
+        "logo_url": "public/fileupload/D1i3n4cWxI2LOgZJpkPJfw1MjZTD3dAvtcvIuVRc.jpg",
+        "username": "Chimons9063",
+        "package_id": 3,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Gas Terminalling Ltd.",
+        "logo_url": "public/fileupload/DQuuIzYfFoNOxJKurID4N0jloYYxXndwdCWxgIl0.png",
+        "username": "Gas2915",
+        "package_id": 3,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Nigeria LNG Ltd",
+        "logo_url": "public/fileupload/HkV6n7o282E0jLpnb8jLjtzymUqJToRm3WPa71hb.jpg",
+        "username": "Nigeria3648",
+        "package_id": 3,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Navgas",
+        "logo_url": "public/fileupload/AUhwTPlSpu1KH2Uc887Sp3BZ72arxoCBrmgaswjT.jpg",
+        "username": "Navgas2050",
+        "package_id": 3,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Nipco Plc",
+        "logo_url": "public/fileupload/iRYrDts4IQVv5wk4hw0wbWANGt6d9STS8ScaxSBX.jpg",
+        "username": "Nipco7062",
+        "package_id": 3,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "BISWAL LIMITED",
+        "logo_url": "public/fileupload/NFB21JYEAa35sM8YBqxae4G9Eznhbp73itOu5d4z.jpg",
+        "username": "Biswal4450",
+        "package_id": 2,
+        "activities": "[\"Terminal_or_Depots\",\"Equipment_or_Accessories\",\"Cylinder_Manufacturers\",\"Plant_Owner\",\"Logistics\",\"Business_Advisory\",\"Offtaker\",\"Trading\",\"LPG\"]"
+    },
+    {
+        "company_name": "Gasland Nigeria Ltd.",
+        "logo_url": null,
+        "username": "Gasland1958",
+        "package_id": 2,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Hyson Nigeria Ltd",
+        "logo_url": "public/fileupload/5jA7iXw0AwuqzPF8Isu7KKT6poV2L15ER65ah32F.png",
+        "username": "Hyson9016",
+        "package_id": 3,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "LCCI",
+        "logo_url": "public/fileupload/LsYp8nHY6ShplkYgGaBCCHl5c2fPVNjTIwPtcZ7I.jpg",
+        "username": "LCCI8764",
+        "package_id": 3,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Sentax Oil and Gas Ltd",
+        "logo_url": "public/fileupload/CbRhwTGJzpzDhisMy7cxZHAzwzHPLp62BXeBciBD.jpg",
+        "username": "Sentax1621",
+        "package_id": 3,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Ultimate Gas Limited",
+        "logo_url": "public/fileupload/GBZowtw9CHfEj2nqxLlvKDV5eKMf9hvnVKnR9NnY.jpg",
+        "username": "Ultimate1652",
+        "package_id": 3,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Borkir International Company Ltd.",
+        "logo_url": "public/fileupload/tbCRC2BpdmMB27q2JOU1l7oUSxiSXXbRh9G55UdL.png",
+        "username": "Borkir7379",
+        "package_id": 3,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Cortech Oil Service Ltd",
+        "logo_url": null,
+        "username": "Cortech3405",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Crestfield Nig Ltd",
+        "logo_url": null,
+        "username": "Crestfield4125",
+        "package_id": 2,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Equus Trading and Logistics",
+        "logo_url": "public/fileupload/7kfHxys1QnoS7z1GHvvvUuhHbS3ecpUxxV6ddyXY.jpg",
+        "username": "Equus4688",
+        "package_id": 3,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Falcon Corporation Ltd",
+        "logo_url": null,
+        "username": "Falcon4800",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Greenfield Integrated Energy Services",
+        "logo_url": null,
+        "username": "Greenfield7125",
+        "package_id": 2,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Chuxter Investments Int'l Nig Ltd (CIIN Ltd)",
+        "logo_url": "public/fileupload/Cy3teXpenVHbrefpBNf9iGfJCQ8sJwFFYVZGM6yA.jpg",
+        "username": "Chuxter7716",
+        "package_id": 2,
+        "activities": "[\"Equipment_or_Accessories\",\"Plant_Owner\",\"Logistics\",\"Business_Advisory\",\"LPG\"]"
+    },
+    {
+        "company_name": "Socar Trading SA",
+        "logo_url": null,
+        "username": "Socar1599",
+        "package_id": 2,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Tangram Energy",
+        "logo_url": null,
+        "username": "Tangram8510",
+        "package_id": 2,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Global Academy Ltd",
+        "logo_url": null,
+        "username": "Global6689",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Geradisco Industries",
+        "logo_url": null,
+        "username": "Geradisco6327",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Himma Merchants Limited",
+        "logo_url": "public/fileupload/XJ1zc6MQlggXzxcMCUzg7DbbvDBt0iYLEoXvdy7E.jpg",
+        "username": "Himma6766",
+        "package_id": 3,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "TL & Geradisco industries",
+        "logo_url": null,
+        "username": "TL2855",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Good Intentions Services Ltd",
+        "logo_url": null,
+        "username": "Good9926",
+        "package_id": 3,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Neon Touch Limited",
+        "logo_url": "public/fileupload/CNzXYFgBnDIIZEcC57W7pct3NfQ7QSMdzD4D4PTO.png",
+        "username": "Neon8448",
+        "package_id": 2,
+        "activities": "[\"Logistics\",\"Business_Advisory\",\"Offtaker\",\"Trading\",\"LPG\"]"
+    },
+    {
+        "company_name": "Lyushi Oil and Gas",
+        "logo_url": null,
+        "username": "Lyushi6515",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Algasco LPG Services Ltd",
+        "logo_url": null,
+        "username": "Algasco1240",
+        "package_id": 2,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Stockgap fuels ltd",
+        "logo_url": "public/fileupload/mZdn1t35ZSwwebj7hMl19ZiqpGsV5RjjMywLDcxK.jpg",
+        "username": "Stockgap2216",
+        "package_id": 3,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "J- Newton",
+        "logo_url": null,
+        "username": "J-7289",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Genteel Energy Solutions Limited",
+        "logo_url": null,
+        "username": "Genteel7958",
+        "package_id": 2,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Hyde Energy Ltd",
+        "logo_url": "public/fileupload/tVdjOLCtxsYfTa5suMeXhVkx1PTIYTn9sVw62EVX.png",
+        "username": "Hyde6454",
+        "package_id": 2,
+        "activities": "[\"Terminal_or_Depots\",\"Logistics\",\"Business_Advisory\",\"Trading\",\"LPG\"]"
+    },
+    {
+        "company_name": "Sables Gas & Energy Ltd",
+        "logo_url": null,
+        "username": "Sables9099",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Longview Gas",
+        "logo_url": "public/fileupload/PN4DeGDovoWRUS9cqhWhyo34q0HuQajCw1ZPuNyM.jpg",
+        "username": "Longview2026",
+        "package_id": 3,
+        "activities": "[\"Terminal_or_Depots\",\"Equipment_or_Accessories\",\"Logistics\",\"Trading\",\"LPG\"]"
+    },
+    {
+        "company_name": "Matrix PetroChem Ltd",
+        "logo_url": null,
+        "username": "Matrix8190",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Nido Gas",
+        "logo_url": null,
+        "username": "Nido9606",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Quaint Agencies",
+        "logo_url": "public/fileupload/C7lSHTJywjbaMvK0H6qnvXMHUMvo0Jw4G1l0baE2.jpg",
+        "username": "Quaint327",
+        "package_id": 3,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Cozym Limited",
+        "logo_url": "public/fileupload/GOYRURAkcmm6nEkLeqV9ETD5wMAMOWMRDMA1zGTF.png",
+        "username": "Cozyms7194",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Lopa Energy",
+        "logo_url": null,
+        "username": "Lopa7688",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "First Source Supply Integrated Limited",
+        "logo_url": null,
+        "username": "First2793",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Shokate Ventures Ltd",
+        "logo_url": null,
+        "username": "Shokate513",
+        "package_id": 2,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Matrix Energy Limited",
+        "logo_url": "public/fileupload/sdjtgQU5C7Am5kpDWChgYgigiHaV4bekGsKiABI5.png",
+        "username": "Matrix898",
+        "package_id": 3,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Prime Atlantic Limited",
+        "logo_url": null,
+        "username": "Prime7603",
+        "package_id": 2,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Delta Afrik Engineering",
+        "logo_url": null,
+        "username": "Delta1452",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "HydroCIS",
+        "logo_url": null,
+        "username": "HydroCIS516",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "MOS Energy Company Ltd",
+        "logo_url": null,
+        "username": "MOS7426",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "PNG Gas Ltd",
+        "logo_url": "public/fileupload/4rlLSykQXB633OxKsRwkkfN8FrpKPytmYtK0LAPJ.png",
+        "username": "PNG7246",
+        "package_id": 3,
+        "activities": "[\"Business_Advisory\",\"Trading\",\"LPG\"]"
+    },
+    {
+        "company_name": "Cakasa (Nig) Company Ltd",
+        "logo_url": null,
+        "username": "Cakasa5370",
+        "package_id": 2,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "BOVAS and Company Limited",
+        "logo_url": "public/fileupload/KTwLyrHJFHeCyAhJrvTlamweMbmUAL6A6nSdZ2yn.jpg",
+        "username": "Bovas2913",
+        "package_id": 1,
+        "activities": "[\"Plant_Owner\",\"Trading\",\"LPG\"]"
+    },
+    {
+        "company_name": "MOB Integrated Service",
+        "logo_url": "public/fileupload/SQP8DnmSTKo3OsCYcrVjepbbk5TWXTNFde1UKBGY.png",
+        "username": "MOB2026",
+        "package_id": 3,
+        "activities": "[\"Terminal_or_Depots\",\"Logistics\",\"Business_Advisory\",\"LPG\"]"
+    },
+    {
+        "company_name": "Kwale Hydrocarbon Nigeria Limited",
+        "logo_url": "public/fileupload/oQqELh6FnACeFdlO0OwFCLA6fgdk6NFdqOzFrHGQ.jpg",
+        "username": "Kwale9790",
+        "package_id": 3,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Asiko Power Limited",
+        "logo_url": "public/fileupload/B7B1wXtuRANIyjzyofsTnrmjEqKQURcmKEC362wI.png",
+        "username": "Asiko5114",
+        "package_id": 3,
+        "activities": "[\"Terminal_or_Depots\",\"Equipment_or_Accessories\",\"Plant_Owner\",\"Logistics\",\"Business_Advisory\",\"Trading\",\"LPG\"]"
+    },
+    {
+        "company_name": "A.A. Rano Nigeria LTD",
+        "logo_url": null,
+        "username": "A.A.4640",
+        "package_id": 2,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Merciport Energy Services LTD",
+        "logo_url": "public/fileupload/fgjaEYyLrcJENKAhIPVWtbn2zPr1C1Utl1jhMG5D.png",
+        "username": "Merciport5445",
+        "package_id": 1,
+        "activities": "[\"Equipment_or_Accessories\",\"Plant_Owner\",\"Trading\",\"LPG\"]"
+    },
+    {
+        "company_name": "Baba Energy Nigeria LTD",
+        "logo_url": "public/fileupload/hG3I9jS0ReN1b0cFlxnB9SEdSWRo3eUSdBIF3qqf.jpg",
+        "username": "Baba3226",
+        "package_id": 2,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "WNM Energy Limited",
+        "logo_url": null,
+        "username": "WNM869",
+        "package_id": 2,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Mayak Services",
+        "logo_url": null,
+        "username": "Mayak4678",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Marque And Synergy International Limited",
+        "logo_url": null,
+        "username": "Marque4556",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "AYM Shafa Energy LTD",
+        "logo_url": null,
+        "username": "AYM3837",
+        "package_id": 3,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Prudent Energy and Services Limited",
+        "logo_url": "public/fileupload/eXnONcCK3IExyVDVN2poRLBFwRvPhbTCwR4IpjaX.png",
+        "username": "Prudent2695",
+        "package_id": 3,
+        "activities": "[\"Business_Advisory\",\"LPG\"]"
+    },
+    {
+        "company_name": "Anchor Gas",
+        "logo_url": null,
+        "username": "Anchor1697",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Don Mac Ltd",
+        "logo_url": null,
+        "username": "Don8408",
+        "package_id": 2,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Doowe Investment LTD",
+        "logo_url": null,
+        "username": "Doowe7129",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Rainoil Gas Limited",
+        "logo_url": "public/fileupload/Qhtlyjz4O5r2SEBIuMRSlrRAG4pF5T3dCjGos7ru.jpg",
+        "username": "Rainoil7952",
+        "package_id": 3,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Ecogas Energy Resources Limited",
+        "logo_url": null,
+        "username": "Ecogas5038",
+        "package_id": 2,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Osten Laboratory",
+        "logo_url": null,
+        "username": "Osten1951",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Optech Engineering Pvt",
+        "logo_url": "public/fileupload/bP3U2PbpSaxR05InXzBM4wMVlaCeytbDc4gvy9zT.png",
+        "username": "Optech5537",
+        "package_id": 1,
+        "activities": "[\"Business_Advisory\",\"LPG\"]"
+    },
+    {
+        "company_name": "Derengency Energy Resources",
+        "logo_url": null,
+        "username": "Derengency4867",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "ELEVA LPG LIMITED",
+        "logo_url": null,
+        "username": "ELEVA8827",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Enyo Retail and Supply Limited",
+        "logo_url": null,
+        "username": "Enyo1201",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Rungas Group",
+        "logo_url": "public/fileupload/Gcga3pspUM7SuoYsBNEVfIjfd2kX8R5G8CDW00Up.png",
+        "username": "Rungas2837",
+        "package_id": 3,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Bengine Universal Nigeria",
+        "logo_url": null,
+        "username": "Bengine1515",
+        "package_id": 2,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Energy Training Centre",
+        "logo_url": null,
+        "username": "Energy5884",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Butane Energy Limited",
+        "logo_url": null,
+        "username": "Butane5888",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Rungas Prime Industries",
+        "logo_url": null,
+        "username": "Rungas1961",
+        "package_id": 2,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Alles Charis Gas Ltd",
+        "logo_url": "public/fileupload/fzDr2TOW6tNX8LOC0OKk58iveenroX0oAZKG9tKz.png",
+        "username": "Alles1750",
+        "package_id": 2,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "MOORES ENERGY",
+        "logo_url": null,
+        "username": "MOORES7536",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Efikpo Oil & Gas Ltd",
+        "logo_url": null,
+        "username": "Efikpo2151",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Mother Energy Cooking Gas",
+        "logo_url": null,
+        "username": "Mother7720",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "A2M ENERGY LIMITED",
+        "logo_url": "public/fileupload/tPfS1YLyr5yeopdE6WbIBtEVTlEIr0hZKG35JYhP.jpg",
+        "username": "A2M5910",
+        "package_id": 2,
+        "activities": "[\"Plant_Owner\",\"Logistics\",\"Offtaker\",\"Trading\",\"LPG\"]"
+    },
+    {
+        "company_name": "NEPAL ENERGIES",
+        "logo_url": null,
+        "username": "NEPAL3039",
+        "package_id": 2,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Yakmoha Limited",
+        "logo_url": null,
+        "username": "Yakmoha5625",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Nadisco Cooking Gas",
+        "logo_url": null,
+        "username": "Nadisco5012",
+        "package_id": 2,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Cydene Energy Services",
+        "logo_url": null,
+        "username": "Cydene2202",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Ibile Oil & Gas",
+        "logo_url": null,
+        "username": "Ibile3851",
+        "package_id": 2,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Old Mutual General Insurance Company Nigeria Limited",
+        "logo_url": null,
+        "username": "Old6464",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "NEIMS Limited",
+        "logo_url": null,
+        "username": "Newlife4263",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Smart Gas & Petroleum Limited",
+        "logo_url": null,
+        "username": "Smart9910",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Acems Gas and Marine Services Ltd",
+        "logo_url": null,
+        "username": "Acems2504",
+        "package_id": 2,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Finota International Services",
+        "logo_url": null,
+        "username": "Finota6805",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Radiant Life Gas",
+        "logo_url": null,
+        "username": "Radiant1922",
+        "package_id": 2,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Depthtop Consulting Limited",
+        "logo_url": null,
+        "username": "Depthtop974",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Dharmattan Gas and Power  Products  Limited",
+        "logo_url": null,
+        "username": "Dharmattan6377",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "ARCUS 360",
+        "logo_url": null,
+        "username": "ARCUS9208",
+        "package_id": 3,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Westward Gas and Energy Limited (Westgas)",
+        "logo_url": null,
+        "username": "Westward2741",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Servshore Limited",
+        "logo_url": null,
+        "username": "Servshore9897",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "BRIDGEFIELD INTEGRATED RESOURCES LTD",
+        "logo_url": null,
+        "username": "BRIDGEFIELD9118",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Selai Gas Station Ltd",
+        "logo_url": null,
+        "username": "Selai2152",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Just Gas Ltd",
+        "logo_url": null,
+        "username": "Just3873",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "BiggieKandy Gas",
+        "logo_url": null,
+        "username": "BiggieKandy4264",
+        "package_id": 2,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "A.S. AREOKUTA ALSPORTS & GAS INTERNATIONAL LTD",
+        "logo_url": null,
+        "username": "A.S.7451",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Unigaz Integrated Services Ltd",
+        "logo_url": null,
+        "username": "Unigaz9453",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Gas Project Monitor (GPM)",
+        "logo_url": null,
+        "username": "Gas9399",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Jak Energy Solution Ltd",
+        "logo_url": null,
+        "username": "Jak6882",
+        "package_id": 2,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "City Gas Nigeria Ltd",
+        "logo_url": null,
+        "username": "City2520",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Connect Gas & Energy Ltd",
+        "logo_url": "public/fileupload/NspMD1C69nJvf0CHk5KGwqbaBr6K55SZ7vLlwFfU.jpg",
+        "username": "Connect7799",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "IESL Gas Solution",
+        "logo_url": null,
+        "username": "IESL3893",
+        "package_id": 2,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Vapai Energy Solution Ltd",
+        "logo_url": null,
+        "username": "Vapai3461",
+        "package_id": 2,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Vydec Gas Systems",
+        "logo_url": null,
+        "username": "Vydec429",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Axles and Cartage Ltd",
+        "logo_url": "public/fileupload/i31xQde2rVmrYNtWt6KtzvrxvtfsnlmGll9Lheis.jpg",
+        "username": "Axles514",
+        "package_id": 2,
+        "activities": "[\"Logistics\",\"LPG\"]"
+    },
+    {
+        "company_name": "Sungas Company Ltd",
+        "logo_url": null,
+        "username": "Sungas3086",
+        "package_id": 2,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Cadara Energy Resource Ltd",
+        "logo_url": null,
+        "username": "Cadara659",
+        "package_id": 2,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Rych Petroleum and Energy Ltd",
+        "logo_url": null,
+        "username": "Rych609",
+        "package_id": 2,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Cecom Technologies Limited",
+        "logo_url": null,
+        "username": "Cecom724",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Vocal oil and gas",
+        "logo_url": "public/fileupload/o2kLAJLLR2qGk8H0bND5DlDWNDju0CW3mtfFjMNX.jpg",
+        "username": "Vocal6724",
+        "package_id": 1,
+        "activities": "[\"Plant_Owner\",\"Logistics\",\"Business_Advisory\",\"Offtaker\",\"Trading\",\"LPG\"]"
+    },
+    {
+        "company_name": "Emadeb Energy",
+        "logo_url": "public/fileupload/JBuzAEGYsaUSO07e3u7FN1IpyuhOtA31FFPAozVw.png",
+        "username": "Emadeb3407",
+        "package_id": 2,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Karamah Global Links Limited",
+        "logo_url": null,
+        "username": "Karamah7062",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "AQNA Resources Limited",
+        "logo_url": null,
+        "username": "AQNA8874",
+        "package_id": 2,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Sixxco Oil Limited",
+        "logo_url": "public/fileupload/Odi40fHyZor92cmqTF1CPCtMXknwdQeur6bgk3UI.png",
+        "username": "Sixxco3559",
+        "package_id": 2,
+        "activities": "[\"Equipment_or_Accessories\",\"Plant_Owner\",\"Logistics\",\"Offtaker\",\"LPG\"]"
+    },
+    {
+        "company_name": "Alfan Gas Nigeria Limited",
+        "logo_url": null,
+        "username": "Alfan4693",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Amal Technologies Ltd",
+        "logo_url": "public/fileupload/C1k5IQ5vsYig32IsMRaiFHxAAOJBZkHg8cmXtber.jpg",
+        "username": "Amal4309",
+        "package_id": 2,
+        "activities": "[\"Equipment_or_Accessories\",\"LPG\"]"
+    },
+    {
+        "company_name": "Eliesther Energy Limited",
+        "logo_url": "public/fileupload/UKDob7LshOyqG8anvlVLvseAmSzH29tcZ3mxWgbN.jpg",
+        "username": "Eliesther8342",
+        "package_id": 2,
+        "activities": "[\"Equipment_or_Accessories\",\"Plant_Owner\",\"Logistics\",\"Business_Advisory\",\"Trading\",\"LPG\"]"
+    },
+    {
+        "company_name": "Exchange Oil and Gas Company Limited",
+        "logo_url": null,
+        "username": "Exchange6645",
+        "package_id": 2,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Zen Cylinders Manufacturing Co Ltd",
+        "logo_url": null,
+        "username": "Zen3507",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "PINNACLE OIL AND GAS LIMITED",
+        "logo_url": null,
+        "username": "PINNACLE8368",
+        "package_id": 2,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Mezovest Limited",
+        "logo_url": "public/fileupload/iSm2ntWAtCQADGj5s1irt8myS9S2v1kWr5E9zFDg.jpg",
+        "username": "Mezovest2690",
+        "package_id": 2,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Opensea Oil and Gas Limited",
+        "logo_url": "public/fileupload/HAXsHveGnAXrUOGdoRmBG0kKU38QSEe1b5sDVpeg.png",
+        "username": "Opensea4367",
+        "package_id": 2,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Basumoh Nigeria Limited",
+        "logo_url": null,
+        "username": "Basumoh2655",
+        "package_id": 2,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "NATLONG OIL & GAS SERVICES LTD",
+        "logo_url": null,
+        "username": "NATLONG9703",
+        "package_id": 2,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "MAIGIDA MULTI-BIZ GLOBAL OIL AND GAS",
+        "logo_url": null,
+        "username": "MAIGIDA1560",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "GASAVANT AFRICA",
+        "logo_url": "public/fileupload/QWCn985MGtWAc1g0FZ2JvImAfrb0aP7OXLv2UnjW.jpg",
+        "username": "GASAVANT2471",
+        "package_id": 2,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "THREE ACE ENERGY",
+        "logo_url": "public/fileupload/R1O2mC9spciZNDTwK2YbxLFNPOzUSRtJDURx6YS0.png",
+        "username": "THREE2586",
+        "package_id": 2,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "TECHNO OIL LIMITED",
+        "logo_url": "public/fileupload/EA16XCJlw43ZsoneCorvCdHpywPKi6VtMVpzI0sf.jpg",
+        "username": "TECHNO4877",
+        "package_id": 3,
+        "activities": "[\"Terminal_or_Depots\",\"Equipment_or_Accessories\",\"Cylinder_Manufacturers\",\"Plant_Owner\",\"Offtaker\",\"Trading\",\"LPG\"]"
+    },
+    {
+        "company_name": "Mitan Energy Company Ltd",
+        "logo_url": "public/fileupload/8Kt74mUkntW86MD0jSAizHA4u6B1rROkMeyNlXA2.png",
+        "username": "Mitan5205",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Strategic Energy Limited",
+        "logo_url": null,
+        "username": "Strategic8685",
+        "package_id": 3,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Gastech Energy Solutions Ltd",
+        "logo_url": "public/fileupload/J7qC5LdPfxRyGNyGX8OWKTrmprVP1nwaLqB7MOgR.jpg",
+        "username": "Gastech2349",
+        "package_id": 1,
+        "activities": "[\"Equipment_or_Accessories\",\"Business_Advisory\",\"Trading\",\"LPG\"]"
+    },
+    {
+        "company_name": "Megascale Resources Limited",
+        "logo_url": null,
+        "username": "Gbola3@yahoo.com6626",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Links Group Ltd",
+        "logo_url": null,
+        "username": "Links6564",
+        "package_id": 1,
+        "activities": "[\"Terminal_or_Depots\",\"Business_Advisory\",\"Offtaker\",\"LPG\"]"
+    },
+    {
+        "company_name": "Pultru International Ltd",
+        "logo_url": null,
+        "username": "Pultru3119",
+        "package_id": 1,
+        "activities": "[\"LPG\"]"
+    },
+    {
+        "company_name": "Nesgas Producing Limited",
+        "logo_url": null,
+        "username": "Nesgas6482",
+        "package_id": 2,
+        "activities": "{\"Terminal_or_Depots\":true,\"Equipment_or_Accessories\":true,\"Cylinder_Manufacturers\":null,\"Plant_Owner\":null,\"Logistics\":true,\"Business_Advisory\":null,\"Offtaker\":null,\"Trading\":true,\"LPG\":true}"
+    },
+    {
+        "company_name": "SQUAMET LIMITED",
+        "logo_url": "public/fileupload/5cqWZIGSgZ9pFbIQD4XghniLkx6s19vDdEUxfLub.jpg",
+        "username": "JOHN.OBAFAIYE@SQUAMET.COM1046",
+        "package_id": 2,
+        "activities": "[\"Offtaker\",\"Trading\",\"LPG\"]"
+    },
+    {
+        "company_name": "Nexus Gas Trading Limited",
+        "logo_url": null,
+        "username": "Nexus7256",
+        "package_id": 2,
+        "activities": "{\"Terminal_or_Depots\":null,\"Equipment_or_Accessories\":null,\"Cylinder_Manufacturers\":null,\"Plant_Owner\":null,\"Logistics\":true,\"Business_Advisory\":true,\"Offtaker\":null,\"Trading\":true,\"LPG\":true}"
+    },
+    {
+        "company_name": "FOAM Studio LTD",
+        "logo_url": "public/fileupload/K0uU5OqQU9GZ7T6DnSrLMBSzczKRJctPdnIkWhBp.png",
+        "username": "FOAM9717",
+        "package_id": 1,
+        "activities": "[\"Logistics\",\"Offtaker\",\"LPG\"]"
+    },
+    {
+        "company_name": "Modurch Green Limited",
+        "logo_url": "public/fileupload/mV56iBPO7AWTUOam6qh4coGv0qJmdLZ744SwpfM3.jpg",
+        "username": "Modurch2853",
+        "package_id": 1,
+        "activities": "[\"Equipment_or_Accessories\",\"Logistics\",\"Business_Advisory\",\"Offtaker\",\"Trading\",\"LPG\"]"
+    },
+    {
+        "company_name": "Gento Investments Limited",
+        "logo_url": "public/fileupload/F2nQzdb4k9DGMNbulM5pX9CRVRMDDXHv9h7WCXtM.jpg",
+        "username": "Gento5219",
+        "package_id": 1,
+        "activities": "[\"Equipment_or_Accessories\",\"Trading\",\"LPG\"]"
+    },
+    {
+        "company_name": "Greenlife Allied Energy Co. Ltd",
+        "logo_url": "public/fileupload/ecj0wowz7Y1q9g0cBLhSlnnQbxpiq9qhXZfSPo7M.png",
+        "username": "Greenlife6110",
+        "package_id": 2,
+        "activities": "{\"Terminal_or_Depots\":null,\"Equipment_or_Accessories\":null,\"Cylinder_Manufacturers\":null,\"Plant_Owner\":null,\"Logistics\":null,\"Business_Advisory\":true,\"Offtaker\":null,\"Trading\":true,\"LPG\":true}"
+    }
+]

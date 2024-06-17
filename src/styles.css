@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body { 
+    @apply m-0 p-0 text-[0.8rem] text-[#25272A] bg-white relative font-heebo  box-border;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body { height: 100%;  scroll-behavior: smooth; }
+
+a:hover {
+    @apply text-black
+}
+
+
+.w-content {
+    @apply w-full lg:w-[80%] xl:w-[75%] 2xl:w-[55%] mx-auto px-5
+}
+
+

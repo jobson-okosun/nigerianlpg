@@ -1,0 +1,22 @@
+[
+    { 
+      "type": "audio", 
+      "src": "https://www.nigerialpgas.com/assets/img/audio/DEC1123-TODAY-IN-THE-NEWS-WITH-MR-FELIX-EKUNDAYO-PRESIDENT-NLPGA.mp3", 
+      "thumbnail": "assets/events/pres_radio_interview.bbf03c8014cd86e7.jpeg" 
+    },
+    { 
+      "type": "youtube", 
+      "src": "https://www.youtube.com/embed/aV1S4RDdOoY", 
+      "thumbnail": ""
+    },
+    { 
+      "type": "youtube", 
+      "src": "https://www.youtube.com/embed/vmfqP8SbwcQ", 
+      "thumbnail": "" 
+    },
+    { 
+      "type": "youtube", 
+      "src": "https://www.youtube.com/embed/LOgEDif520k", 
+      "thumbnail": "" 
+    }
+  ]

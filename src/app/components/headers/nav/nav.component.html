@@ -1,0 +1,70 @@
+<nav class="bg-secondary lg:bg-transparent h-full w-full flex flex-col lg:flex-row  justify-center lg:justify-between items-center gap-5">
+    <ul class="flex flex-col lg:flex-row gap-3 lg:gap-5 w-1/2 lg:w-max m-0">
+        <li class="nav-item">
+            <a href="/" class="flex items-center gap-2 uppercase text-xs font-medium text-white lg:text-secondary"><span>Home</span></a>
+        </li>
+        <li class="nav-item">
+            <span class="flex items-center gap-2 uppercase text-xs font-medium cursor-pointer">
+                <span>About </span>
+                <i class="fa-solid fa-angle-down arrow"></i>
+            </span>
+            <ul class="submenu p-5 lg:p-7 bg-slate-600 text-secondary lg:bg-secondary lg:text-white">
+                <li><a href="/what-is-nlpg">What is LPG</a></li>
+                <li><a href="/our-objective">Our Objectives</a></li>
+                <li><a href="/management">Executive Committee</a></li>
+                <li><a href="/governing-council">Governing Council</a></li>
+                <li><a href="/presidents">Past Presidents</a></li>
+            </ul>
+        </li>
+        <li class="nav-item">
+            <span class="flex items-center gap-2 uppercase text-xs font-medium cursor-pointer">
+                <span>Events & Media </span>
+                <i class="fa-solid fa-angle-down arrow"></i>
+            </span>
+            <ul class="submenu p-5 lg:p-7 bg-slate-600 text-secondary lg:bg-secondary lg:text-white">
+                <li><a href="/our-events">Our Events</a></li>
+                <li><a href="/liveevents">Online Meeting</a></li>
+                <li><a href="/news">News</a></li>
+                <li><a href="press-release">Press Release</a></li>
+                <li><a href="depot-price">Depot Prices</a></li>
+            </ul>
+        </li>
+        <li class="nav-item">
+            <span class="flex items-center gap-2 uppercase text-xs font-medium cursor-pointer">
+                <span>Membership</span>
+                <i class="fa-solid fa-angle-down arrow"></i>
+            </span>
+            <ul class="submenu p-5 lg:p-7 bg-slate-600 text-secondary lg:bg-secondary lg:text-white">
+                <li><a href="/our-members">Members</a></li>
+                <li><a href="/why-join">Why Join us</a></li>
+                <li><a href="/joincommunity">Committees</a></li>
+                <li><a href="/downloads">Resources</a></li>
+            </ul>
+        </li>
+        <li class="nav-item">
+            <span class="flex items-center gap-2 uppercase text-xs font-medium cursor-pointer">
+                <span>Conference</span>
+                <i class="fa-solid fa-angle-down arrow"></i>
+            </span>
+            <ul class="submenu p-5 lg:p-7 bg-slate-600 text-secondary lg:bg-secondary lg:text-white">
+                <li><a href="#">All COnference</a></li>
+                <li><a href="#">Conference Photos</a></li>
+            </ul>
+        </li>
+        <li class="nav-item">
+            <a href="/newsletters" class="flex items-center gap-2 uppercase text-xs font-medium cursor-pointer text-white lg:text-secondary">Newsletter</a>
+        </li>
+    </ul>
+    <div class="w-1/2 lg:w-max">
+        <button class="py-4 px-12 bg-primary text-white lg:bg-transparent border border-transparent lg:border-primary uppercase text-sm lg:text-primary font-semibold transition hover:bg-primary hover:text-white">Sign
+            in</button>
+    </div>
+    <ul class="lg:hidden w-1/2 lg:w-full flex flex-col text-white gap-2 text-xs">
+        <li>Lindev Plaza (3rd Floor), 16 Amodu Ojikutu Street, V.I, Lagos</li>
+        <li>+234 817 031 2909</li>
+        <li>infonigerialpgas.com</li>
+    </ul>
+    <div class="lg:hidden  absolute top-0 right-0 w-full p-5 flex justify-end" (click)="closeNav()">
+        <i id="toggle-close" class="fa-solid fa-xmark text-white" style="font-size:25px"></i>
+    </div>
+</nav>

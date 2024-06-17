@@ -1,0 +1,53 @@
+<page-hero />
+
+<section>
+    <div class="py-24 lg:py-32">
+        <div class="w-content grid grid-cols-1 lg:grid-cols-2 gap-20">
+            <div class="min-h-[300px] lg:h-full border-b-[14px] border-primary relative">
+                <div class="h-full bg-cover bg-no-repeat" style="background-image: url(./assets/about1.jpg);"></div>
+                <div class="h-[20px] w-full absolute bottom-0 bg-white"></div>
+                <div class="h-3/5 w-2/3 bg-cover bg-no-repeat absolute bottom-0 right-0 border-[14px] border-white lg:translate-x-[50px] translate-y-[70px] z-10"
+                    style="background-image: url(./assets/about.jpeg);"></div>
+            </div>
+            <div class="flex flex-col gap-8 text-sm">
+                <div>
+                    <h5 class="text-sm capitalize font-boldtext-primary border-l-2 border-primary pl-3">About us
+                    </h5>
+                    <h2 class="font-black text-3xl text-secondary capitalize mt-2 tracking-wide">Nigeria LPGAS Association</h2>
+                </div>
+                <p class="tracking-wide text-gray-600/90 leading-normal">
+                    LP Gas is a derivative of two large energy industries: natural gas processing and crude oil refining.<br><br>
+
+                    Before natural gas can be transported or used, the LP Gases (which are slightly heavier than methane, the major component of natural gas) are separated out. Depending on the ”wetness” of a producing gas field, gas liquids generally contain 1%-3% of the unprocessed gas stream. Some LP Gases are also trapped in crude oil. In order to stabilise the crude oil for pipeline or tanker distribution, these “associated” or ”natural gases” are further processed into LP Gas. Worldwide, gas processing is a source of approximately 60% of LP Gas produced.
+                    <br><br>
+                    
+                    LP Gas unique properties allow it to be used everywhere
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="py-24 lg:py-32">
+        <div class="w-content">
+            <div class="flex flex-col gap-10 text-sm">
+                <div>
+                    <h5 class="text-sm capitalize font-boldtext-primary border-l-2 border-primary pl-3">LEARN MORE</h5>
+                    <h2 class="font-black text-3xl text-secondary capitalize mt-2 tracking-wide">LP Gas Unique PROPERTIES</h2>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                   @for(item of lpgPropertries; track item; let index = $index, even = $even) {
+                        <div class="flex flex-col gap-7 {{ even ? 'bg-gray-100' : 'bg-white' }} px-10 py-12 hover:border-primary lg:border {{ index == 1 ? 'border-primary' : 'border-transparent'}}  transtion">
+                            <span class="rounded-full h-12 w-12 bg-[#CDE5C6] text-primary flex items-center justify-center">
+                                <span class="material-symbols-outlined">{{ item.icon }} </span>
+                            </span>
+                            <h5 class="text-base font-semibold">{{ item.title }} </h5>
+                            <p class="text-xs font-medium text-gray-500 tracking-wide leading-normal">{{ item.description }} </p>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

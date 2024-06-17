@@ -1,0 +1,15 @@
+.mini-header {
+    animation: fadeIn 0.3s ease forwards
+}
+
+#nav {
+    display: block;
+    animation: fadeIn 0.6s ease forwards;
+}
+
+@media screen and (max-width: 1024px) {
+    #nav {
+        display: none;
+        animation: fadeIn 0.6s ease forwards;
+    }
+}

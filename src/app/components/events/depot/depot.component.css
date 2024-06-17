@@ -1,0 +1,44 @@
+.table-content {
+    @apply overflow-y-hidden overflow-x-auto w-full  shadow 
+}
+
+.table-content table {
+    @apply w-full border-collapse
+}
+
+.table-content table thead tr {
+    @apply bg-slate-800
+}
+
+/* .table-content table tbody tr:nth-child(even) {
+    @apply bg-gray-100
+} */
+
+.table-content table thead tr th {
+    @apply font-semibold uppercase text-sm p-5 text-white text-left
+}
+
+.table-content table tbody tr td {
+    @apply font-medium capitalize  py-2 px-5 break-keep border-0
+}
+
+.table-content table tbody tr {
+    @apply transition ease-linear duration-300 cursor-pointer bg-white border-b border-gray-200
+}
+
+.table-content table tbody tr:last-child {
+    @apply border-none
+}
+
+/* .table-content table tbody tr td {
+    @apply bg-blue-50
+}
+
+.table-content table tbody tr td:first-child {
+    @apply bg-transparent
+} */
+
+
+.table-content table tbody tr:hover {
+    @apply bg-gray-100
+}
