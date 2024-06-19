@@ -37,4 +37,32 @@ export default class DataService {
     getNewsletterBulletins():Observable<any> {
         return this._http.get('app/resource/mock/bulletin.json')
     }
+
+    getEvents():Observable<any> {
+        return this._http.get('app/resource/mock/events.json')
+    }
+
+    getPhotos():Observable<any> {
+        return this._http.get('app/resource/mock/photos.json')
+    }
+
+    getEvent(title:string):Observable<any> {
+        return this._http.get('https://www.api.nigerialpgas.com/api/displayeventbyslug/' + title)
+    }
+
+    getNewsPost(title:string):Observable<any> {
+        return this._http.get('https://www.api.nigerialpgas.com/api/getnewsbyslug/' + title)
+    }
+
+    getPressPost(title:string):Observable<any> {
+        return this._http.get('https://www.api.nigerialpgas.com/api/getnewsbyslug/' + title)
+    }
+
+    getConferences():Observable<any> {
+        return this._http.get('app/resource/mock/conference.json')
+    }
+
+    getConference(title:string):Observable<any> {
+        return this._http.get('https://www.api.nigerialpgas.com/api/getnewsbyslug/' + title)
+    }
 }

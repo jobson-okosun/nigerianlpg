@@ -5,7 +5,7 @@ import { ActivatedRoute } from "@angular/router";
     standalone: true,
     selector: 'page-hero',
     template: `
-        <div class="animate__animated animate__fadeIn bg-center bg-no-repeat bg-cover bg-fixed" [style.backgroundImage]="'url(/assets/lpg.jpg)'">
+        <div class="animate__animated animate__fadeIn bg-center bg-no-repeat bg-cover bg-fixed" [style.backgroundImage]="'url(assets/lpg.jpg)'">
             <div class="flex items-center justify-center relative bg-secondary bg-opacity-60 min-h-72 ">
                 <div class="-mb-20 py-5 ">
                     <h1 class="font-black text-3xl xl:text-5xl text-white animate__animated animate__slideInUp">{{ data()?.title }} </h1>

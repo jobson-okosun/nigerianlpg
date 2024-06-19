@@ -1,0 +1,15 @@
+.form-group {
+    @apply w-full flex flex-col gap-1
+}
+
+.control-label {
+    @apply capitalize text-2xs font-medium
+}
+
+.form-control {
+    @apply w-full border border-gray-200 rounded-sm px-3 py-2.5 bg-transparent focus:ring-0 focus:outline-none transition ease-linear duration-300 focus:border-b-primary text-xs font-normal placeholder:text-xs placeholder:text-gray-400 
+}
+
+select.form-control {
+    @apply py-2
+}

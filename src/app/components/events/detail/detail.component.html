@@ -1,0 +1,40 @@
+<page-hero />
+
+<section>
+    <div class="grid gird-cols-1 lg:grid-cols-2 gap-10 py-24 lg:py-32  overflow-hidden lg:w-[90%] 3xl:w-[90%] lg:ml-auto">
+        <div class="p-5 xl:px-32">
+            <div>
+                <h5 class="text-sm capitalize font-boldtext-primary border-l-2 border-primary pl-3 uppercase">{{ event().event_catgory.toUpperCase(0) }} EVENT</h5>
+                <h2 class="font-black text-3xl text-secondary capitalize mt-2 tracking-wide">{{ event().title }}</h2>
+            </div>
+            <div class="flex items-center  divide-x my-10">
+                <span class="w-1/3 flex flex-col justify-center gap-1">
+                    <span class="font-bold">{{ event().event_date | date:'shortDate' }} </span>
+                    <span class="text-gray-500">Date</span>
+                </span>
+                <span class="w-1/3 flex flex-col items-center justify-center gap-1">
+                    <span class="font-bold">{{ event().event_time }} </span>
+                    <span class="text-gray-500">Time</span>
+                </span>
+                <span class="w-1/3 flex flex-col items-center justify-center gap-1">
+                    @if(event().event_catgory == 'Paid'){
+                        <span class="font-bold"> {{ event().charge }} | {{ event().currency == 'Naira' ? '₦':  event().currency }}{{ event().amount | currency }}  </span>
+                    } @else {
+                        <span class="text-gray-500"> {{ event().event_catgory }} </span>
+                    }
+                </span>
+            </div>
+            <div class="text-justify">{{ event().description }}  </div>
+            <div class="flex flex-col bg-gray-50 gap-5 p-5 my-10">
+                <span class="font-bold text-lg">What are your expectaions for this event?</span>
+                <textarea name="" id=""  rows="5" class="border rounded-md bg-white"></textarea>
+                <span class="rounded-md bg-primary text-white font-semibold text-sm text-center p-3 min-w-40 capitalize">Participate Now</span>
+            </div>
+        </div>
+        <div class="grid grid-cols-3 gap-4 translate-x-[120px]">
+            <div class="rounded-md h-80 overflow-hidden bg-cover bg-top" [style.backgroundImage]="'url(/assets/events/B5vt6YZcByddtpT6HWlYztd4zSZEcCzIfpcOWM6N.jpg)'"></div>
+            <div class="rounded-md h-80 overflow-hidden bg-cover bg-top" [style.backgroundImage]="'url(/assets/events/91RboYkk2Wiab0i0GAj198PSs1krvzpDU3dv9Crw.jpg)'"></div>
+            <div class="rounded-md h-80 overflow-hidden bg-cover bg-top" [style.backgroundImage]="'url(/assets/events/4sDFyi2iM3D35qGg5qmrkf7h5lxdK8eRqptk6afI.jpg)'"></div>
+        </div>
+    </div>
+</section>

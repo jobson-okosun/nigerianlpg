@@ -1,0 +1,22 @@
+<page-hero />
+
+<section>
+    <div class="py-24 lg:py-32">
+        <div class="w-content">
+            <div class="flex flex-col gap-20 text-sm">
+                <div>
+                    <h5 class="text-sm capitalize font-boldtext-primary border-l-2 border-primary pl-3 uppercase">news</h5>
+                    <h2 class="font-black text-3xl text-secondary capitalize mt-2 tracking-wide">{{ news()?.title }}</h2>
+                </div>
+                <div class="relative">
+                    <div class="w-full h-[300px] lg:h-[400px] flex items-end justify-start bg-center bg-fixed bg-cover rounded-xl overflow-hidden" [style.backgroundImage]="'url(https://www.api.nigerialpgas.com/storage/app/' + news()?.image_thumbnail + ')'">
+                        <span class="bg-white px-3 py-2 text-xs rounded-md m-3">
+                            <h4>Published: {{ news()?.created_at | date: 'short' }}</h4>
+                        </span>
+                    </div>
+                    <div class="my-10" [innerHTML]="news()?.description"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

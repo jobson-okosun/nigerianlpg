@@ -1,0 +1,19 @@
+<page-hero />
+
+<section>
+    <div class="py-24 lg:py-32">
+        <div class=" lg:w-[80%] 3xl:w-[80%] mx-auto">
+            <div>
+                <h5 class="text-sm capitalize font-boldtext-primary border-l-2 border-primary pl-3">PHOTO</h5>
+                <h2 class="font-black text-3xl text-secondary capitalize mt-2 tracking-wide">NLPGa Conference Gallery</h2>
+            </div>
+            <div class="gallery my-20">
+                @for(item of list(); track item; let index=$index) {
+                    <a href="https://www.nigerialpgas.com/{{ item.url }}" target="_blank" class="gallery-item" [ngClass]="getClass(index)">
+                        <img [src]="'https://www.nigerialpgas.com/' + item.url" alt="Image">
+                    </a>
+                }
+              </div>
+        </div>
+    </div>
+</section>

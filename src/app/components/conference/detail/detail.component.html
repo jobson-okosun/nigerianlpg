@@ -1,0 +1,23 @@
+<page-hero />
+
+<section>
+    <div class="py-24 lg:py-32">
+        <div class="w-content">
+            <div class="flex flex-col gap-20 text-sm">
+                <div>
+                    <h5 class="text-sm capitalize font-boldtext-primary border-l-2 border-primary pl-3 uppercase">news</h5>
+                    <h2 class="font-black text-3xl text-secondary capitalize mt-2 tracking-wide">{{ conference()?.title }}</h2>
+                </div>
+                <div class="relative">
+                    <div class="w-full h-[300px] lg:h-[400px] flex items-end justify-start bg-center  bg-cover rounded-xl overflow-hidden" [style.backgroundImage]="'url(https://www.api.nigerialpgas.com/storage/app/' + conference()?.image_thumbnail + ')'" >
+                        <span class="bg-white px-3 py-2 text-xs rounded-md m-3">
+                            <h4>Published: {{ conference()?.created_at | date: 'short' }}</h4>
+                        </span>
+                        <a target="_blank" href="https://www.api.nigerialpgas.com/storage/app/{{ conference()?.notes }}" download="" class="material-symbols-outlined m-3 h-10 w-10 rounded-full bg-black cursor-pointer !text-white flex items-center justify-center">cloud_download</a>
+                    </div>
+                    <div class="my-10" [innerHTML]="conference()?.description"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

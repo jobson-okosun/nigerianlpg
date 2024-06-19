@@ -21,7 +21,7 @@ export class HeroComponent implements OnInit, AfterViewInit {
   ngOnInit() {
     this.slides.set(['assets/lpg.jpg', 'assets/conf_2024_banner987.jpg']);
     initSwiper()
-    this.startCountdown('2025-12-31T23:59:59');
+    this.startCountdown('2024-11-06T10:00:00');
   } 
 
   ngAfterViewInit(): void {}

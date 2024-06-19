@@ -68,6 +68,6 @@ export const initMarquee = (selector: string, speed: number, datasourceLength: n
 
   export const formatDate = (dateString: string): string => {
     const date = new Date(dateString);
-    const options: Intl.DateTimeFormatOptions = { month: 'short', day: '2-digit' };
+    const options: Intl.DateTimeFormatOptions = { month: 'short', day: '2-digit', year: 'numeric' };
     return new Intl.DateTimeFormat('en-US', options).format(date);
   }

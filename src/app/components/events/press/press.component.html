@@ -4,7 +4,7 @@
     <div class="w-content">
         <div>
             <h5 class="text-sm capitalize  font-bold text-primary border-l-2 border-primary pl-3">News</h5>
-            <h2 class="font-bold text-4xl text-secondary capitalize mt-2 mb-16">.New Press Releases</h2>
+            <h2 class="font-bold text-4xl text-secondary capitalize mt-2 mb-16">New Press Releases</h2>
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-10">
             @for(item of list(); track item; let index=$index) {
@@ -14,13 +14,13 @@
                         <img src="https://www.api.nigerialpgas.com/storage/app/{{ item.image_thumbnail }}" alt="" class="w-full object-cover">
                     </div>
                     <div class="bg-[#F9F9F9] px-7 relative">
-                        <span class="h-16 w-16 bg-white shadow-xl shadow-gray-200/80 flex items-center justify-center p-4 rounded-md absolute -top-[40px] border border-primary">
-                            <span class="font-black text-lg leading-tight">{{ formatDate(item.updated_at) }}</span>
+                        <span class="h-16 w-20 bg-white shadow-xl shadow-gray-200/80 flex items-center justify-center p-4 rounded-md absolute -top-[40px] border border-primary">
+                            <span class="font-black text-sm leading-tight">{{ formatDate(item.updated_at) }}</span>
                         </span>
                         <div class="flex flex-col gap-2 pt-8 pb-6">
                             <p class="font-bold py-3 capitalize text-lg mt-7 tracking-tight text-[#071C1F]/90">{{ item.title.toLowerCase() }}</p>
                             <div class="text-opacity-80">{{ item.short_description }} </div>
-                            <a href="{{ item.slug }}" class="font-semibold capitalize text-sm text-primary">Read more</a>
+                            <a href="/press-release/{{ item.slug }}" class="font-semibold capitalize text-sm text-primary">Read more</a>
                         </div>
                     </div>
                 </div>
